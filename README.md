@@ -6,6 +6,12 @@
 
 </div>
 
+## Apple-only fork
+
+This fork of [rchalaaa/custom-screensaver](https://github.com/rchalaaa/custom-screensaver) plays Apple's aerial footage only. The community videos (glouel/AerialCommunity, RobinFrcd/AerialShots) are removed from `assets/videos.json`, leaving 161 clips: 139 streamed from Apple's servers and 22 Apple clips that Apple only serves at 240fps, re-encoded to 60fps and hosted by [aabytt/sonoma-screen-savers](https://github.com/aabytt/sonoma-screen-savers).
+
+The app ID is unchanged, so it installs over the upstream app.
+
 ## About This Fork
 
 This fork is a complete remake of **custom-screensaver-aerial** originally created by aabytt.
@@ -33,7 +39,7 @@ The goal of this fork is to provide a cleaner, simpler, and more customizable ex
 
 ## Features from aabytt/custom-screensaver-aerial
 
-- [190+ aerial videos](https://aabytt.github.io/aerial-preview/) from different sources.
+- 160+ Apple aerial videos ([preview](https://aabytt.github.io/aerial-preview/))
 - 40+ locales for OSD
 - Source type selection (FullHD/4k SDR or Dolby Vision)
 - Requires root and Homebrew channel
